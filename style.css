@@ -1,3 +1,11 @@
-.img-menu{
-size: 50px;
+.icon{
+
+    background-color: rgb(248, 245, 245);
+    padding: 4px;
+    border-color: rgb(139, 138, 138);
+    width: 38px;
+    text-align: center;
+    border-radius: 15%;
+    margin: 4px;
 }
+.i{text-align: center;}
