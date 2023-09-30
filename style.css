@@ -23,8 +23,17 @@ body {
   border-bottom: 0px;
 }
 
+.btn btn-light {
+  --bs-btn-bg: transparent;
+  --bs-btn-active-bg: transparent;
+  --bs-btn-active-border-color: white;
+}
+
 .sticky {
+  display: flex;
+  justify-content: center;
   position: sticky;
+
   top: 60px;
 }
 
@@ -40,6 +49,7 @@ body {
 
 .head {
   display: flex;
+  background-color: white;
 }
 
 .titulo {
@@ -72,9 +82,11 @@ body {
   font-size: 12px;
   padding-left: 10px;
   padding-top: 5px;
+  background-color: white;
 }
 
 .text {
   padding-left: 10px;
   font-size: 11px;
+  background-color: white;
 }
